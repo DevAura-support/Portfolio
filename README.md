@@ -12,10 +12,10 @@ This repository is our digital storefront. It holds the source code for our agen
 
 We like keeping our tools modern, fast, and reliable. Here is what we used to build this portfolio:
 
-*   **Frontend:** [e.g., Next.js / React / Vue] for fast, seamless page transitions.
-*   **Styling:** [e.g., Tailwind CSS] to keep our designs clean and responsive.
-*   **Hosting & Deployment:** [e.g., Vercel / Netlify] because we love instant, painless builds.
-*   **Animations:** [e.g., Framer Motion] to add that extra bit of life and "aura" to the UI.
+*   **Frontend:** React + Vite for fast, seamless page transitions.
+*   **Styling:** Tailwind CSS to keep our designs clean and responsive.
+*   **Hosting & Deployment:** Vercel for instant, painless builds.
+*   **Animations:** Framer Motion to add that extra bit of life and "aura" to the UI.
 
 ---
 
@@ -25,23 +25,23 @@ If you want to spin up our portfolio on your own machine to see how we structure
 
 1.  **Clone the repository:**
 ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+    git clone https://github.com/DevAura-support/Portfolio.git
+    cd Portfolio
     ```
-2.  **Navigate into the directory:**
-```bash
-    cd [your-repo-name]
-    ```
-3.  **Install the dependencies:**
+2.  **Install dependencies:**
 ```bash
     npm install
-    # or yarn install / pnpm install
     ```
-4.  **Run the development server:**
+3.  **Run the frontend:**
 ```bash
-    npm run dev
+    npm run dev:frontend
+    ```
+4.  **Run the backend (optional):**
+```bash
+    npm run dev:backend
     ```
 
-Open `http://localhost:3000` (or the port specified in your terminal) in your browser to see it live.
+Open `http://localhost:5173` to see the frontend. The API runs on `http://localhost:3001`.
 
 ---
 
